@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
-import logo from '../images/logo.png';
+import logo from '../images/logo3.png';
 import {Link} from 'react-scroll';
 
 function Navbar() {
-    const [nav,stenav]=useState(false);
+    const [nav,statenav]=useState(false);
 
     const changeBackground=()=>{
         if(window.scrollY >= 50){
-            stenav(true);
+            statenav(true);
         }
         else{
-            stenav(false);
+            statenav(false);
         }
     }
     window.addEventListener('scroll',changeBackground);

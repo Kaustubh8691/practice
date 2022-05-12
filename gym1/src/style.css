@@ -32,7 +32,7 @@ input{
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('./images/banner.png');
+    background-image: url('./images/gym1.jpg');
     position: relative;
     z-index: 0;
 }
@@ -100,6 +100,7 @@ nav ul li a:hover{
     color:#ffffff;
 	box-shadow: 5px 10px 30px rgba(117, 209, 12, 0.336);
 	transition: all ease 0.2s;
+    cursor: pointer;
 }
 nav .menu-btn,
 .menu-icon{
@@ -174,6 +175,12 @@ nav .menu-btn,
     justify-content: center;
     padding-top: 40px ;
     background-color: #000000;
+}
+#features:hover{
+    background-image: url('./images/feature1.jpg');
+    overflow: hidden;
+    background-size: contain;
+
 }
 #features h1{
     color: #fff;
@@ -253,7 +260,7 @@ nav .menu-btn,
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('./images/offer.png');
+    background-image: url('./images/offer.jpg');
     text-align: center;
 }
 
@@ -358,6 +365,7 @@ nav .menu-btn,
 }
 .about-image img{
   width: 600px;
+  border-radius: 30px;
 }
 
 #contact{
